@@ -1,8 +1,9 @@
 headlamp:
   config:
     inCluster: true
+    extraArgs:
+      - -oidc-use-access-token
     oidc:
-      useAccessToken: true
       secret:
         create: false
       externalSecret:
