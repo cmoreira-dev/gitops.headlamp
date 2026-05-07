@@ -1,6 +1,7 @@
 headlamp:
   config:
     inCluster: true
+    skipTLSVerify: true
     oidc:
       secret:
         create: false
