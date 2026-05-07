@@ -3,6 +3,7 @@ headlamp:
     inCluster: true
     extraArgs:
       - -oidc-use-access-token
+      - -oidc-validator-idp-issuer-url=https://login.microsoftonline.com/667a1839-bbf6-44f8-b619-3a1159dbeae8/v2.0
     oidc:
       secret:
         create: false
