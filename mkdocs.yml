@@ -1,0 +1,8 @@
+site_name: 'gitops.headlamp'
+site_description: 'Headlamp — Kubernetes UI for the homelab cluster'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
