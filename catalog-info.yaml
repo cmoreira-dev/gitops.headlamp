@@ -12,6 +12,7 @@ metadata:
   annotations:
     github.com/project-slug: cmoreira-dev/gitops.headlamp
     argocd/app-name: 'headlamp'
+    backstage.io/techdocs-ref: dir:.
   links:
     - url: https://headlamp.cmoreira.dev
       title: Headlamp
